@@ -1,0 +1,75 @@
+id,RULEID,bill_action,Scenario,Company,ClaimNum,BillId,ExpectedResult,Status
+1,116,Pay,Pay a bill : closed medical exposure on open claim,PEG,PEG WC 000000015551,FIC-50CA-1271149,Paid,Completed
+2,117,Pay,Pay a bill : open claim with insufficient reserves ,PEG,PEG WC 000000013337,FIC-50CA-1280497,Pending,Completed
+3,119,Pay,Pay a bill : bill payment > supplemental payment on a closed claim,PEG,PEG WC 000000012409,FIC-50CA-1280997,Paid,Completed
+4,120,Pay,Pay a bill : Service Fee check already exists,PEG,PEG WC 000000017856,FIC-50CA-1277889,Paid,Completed
+5,122,Pay,Pay a bill : service fee provider  not available in claim contacts,PEG,PEG WC 000000016503,FIC-50CA-1262401,Paid,Completed
+6,101,Pay,Successfully pay a bill available on an open claim,PEG,PEG WC 000000015696,FIC-50CA-1273334,Paid,Completed
+7,102,Pay,Successfully pay a bill available on a closed claim,PEG,PEG WC 000000013591,FIC-50CA-1281715,Paid,Completed
+8,107,Pay,Pay a bill : no check payee in claim contacts and vendor record available for a given tin in CM,PEG,PEG WC 000000014118,FIC-50CA-1262108,Paid,Completed
+9,108,Pay,Pay a bill : no check payee in claim contacts and no vendor record available for a given tin in CM,PEG,PEG WC 000000012255,FIC-50CA-1279486,Paid,Completed
+10,109,Pay,Pay a bill : check payee is not linked,PEG,PEG WC 000000018584,FIC-50CA-1259572,Paid,Completed
+11,113,Pay,Pay a bill : Record only claim,PEG,PEG WC 000000014581,FIC-50CA-1264849,Paid,Completed
+12,116,Pay,Pay a bill : closed medical exposure on open claim,BNET,BNET WC 000000000475,KRM-CTST-55050,Paid,Completed
+13,117,Pay,Pay a bill : open claim with insufficient reserves ,BNET,BNET WC 000000001215,KRM-CTST-54804,Paid,Completed
+14,119,Pay,Pay a bill : bill payment > supplemental payment on a closed claim,BNET,BNET WC 000000001658,KRM-KSST-29510,Paid,Completed
+15,122,Pay,Pay a bill : service fee provider  not available in claim contacts,BNET,BNET WC 000000002940,KRM-MOST-46120,Paid,Completed
+16,101,Pay,Successfully pay a bill available on an open claim,BNET,BNET WC 000000002943,KRM-ILST-185131,Paid,Completed
+17,102,Pay,Successfully pay a bill available on a closed claim,BNET,BNET WC 000000002952,KRM-CTST-55461,Paid,Completed
+18,107,Pay,Pay a bill : no check payee in claim contacts and vendor record available for a given tin in CM,BNET,BNET WC 000000015043,KRM-CAST-39075,Paid,Completed
+19,108,Pay,Pay a bill : no check payee in claim contacts and no vendor record available for a given tin in CM,BNET,BNET WC 000000004107,KRM-CTST-54314,Paid,Completed
+20,109,Pay,Pay a bill : check payee is not linked,BNET,BNET WC 000000004561,KRM-NJST-9269,Paid,Completed
+21,113,Pay,Pay a bill : Record only claim,BNET,BNET WC 000000005603,KRM-VABR-27636,Paid,Completed
+22,120,Pay,Pay a bill : Service Fee check already exists,BNET,BNET WC 000000015114,KRM-NCST-28487,Paid,Completed
+23,116,Pay,Pay a bill : closed medical exposure on open claim,KRM,KEY000000180,KRM-TNKR-111210,Paid,Completed
+24,117,Pay,Pay a bill : open claim with insufficient reserves ,KRM,KEY000000690,KRM-DCKR-649,Pending,Completed
+25,119,Pay,Pay a bill : bill payment > supplemental payment on a closed claim,KRM,KEY000000006,KRM-NCKR-484044,Paid,Completed
+26,120,Pay,Pay a bill : Service Fee check already exists,KRM,KEY000000057,KRM-TNKR-112576,Paid,Completed
+27,122,Pay,Pay a bill : service fee provider  not available in claim contacts,KRM,KEY000000508,KRM-GAKR-240238,Paid,Completed
+28,101,Pay,Successfully pay a bill available on an open claim,KRM,KEY000001352,KRM-NCKR-487552,Paid,Completed
+29,102,Pay,Successfully pay a bill available on a closed claim,KRM,KEY000001186,KRM-NCKR-484114,Paid,Completed
+30,107,Pay,Pay a bill : no check payee in claim contacts and vendor record available for a given tin in CM,KRM,KEY000000912,KRM-GAKR-240832,Paid,Completed
+31,108,Pay,Pay a bill : no check payee in claim contacts and no vendor record available for a given tin in CM,KRM,KEY000000212,KRM-MDKR-83863,Paid,Completed
+32,109,Pay,Pay a bill : check payee is not linked,KRM,KEY000000700,KRM-NCKR-482740,Paid,Completed
+33,113,Pay,Pay a bill : Record only claim,KRM,KEY000000737,KRM-TNKR-111711,Paid,Completed
+34,116,Pay,Pay a bill : closed medical exposure on open claim,BIN,BIN000011793,KRM-MNMN-788,Paid,Completed
+35,117,Pay,Pay a bill : open claim with insufficient reserves ,BIN,BIN000013640,KRM-AZMN-6133,Paid,Completed
+36,119,Pay,Pay a bill : bill payment > supplemental payment on a closed claim,BIN,BIN000062780,KRM-MDMN-5876,Paid,Completed
+37,120,Pay,Pay a bill : Service Fee check already exists,BIN,BIN000024696,KRM-PAMN-18279,Paid,Completed
+38,122,Pay,Pay a bill : service fee provider  not available in claim contacts,BIN,BIN000033663,KRM-MDMN-5852,Paid,Completed
+39,101,Pay,Successfully pay a bill available on an open claim,BIN,BIN000036847,KRM-MDMN-5427,Paid,Completed
+40,102,Pay,Successfully pay a bill available on a closed claim,BIN,BIN000044631,KRM-AZMN-6266,Paid,Completed
+41,107,Pay,Pay a bill : no check payee in claim contacts and vendor record available for a given tin in CM,BIN,BIN000044876,KRM-PAMN-18420,Paid,Completed
+42,108,Pay,Pay a bill : no check payee in claim contacts and no vendor record available for a given tin in CM,BIN,BIN000048542,KRM-VAMN-8616,Paid,Completed
+43,109,Pay,Pay a bill : check payee is not linked,BIN,BIN000048550,KRM-IDMN-934,Paid,Completed
+44,113,Pay,Pay a bill : Record only claim,BIN,BIN000050693,KRM-MDMN-5716,Paid,Completed
+45,116,Pay,Pay a bill : closed medical exposure on open claim,BRAC,BCLM WC 000000031208,KRM-MNBK-108712,Paid,Completed
+46,117,Pay,Pay a bill : open claim with insufficient reserves ,BRAC,BCLM WC 000000060345,KRM-TXBK-1258,Paid,Completed
+47,119,Pay,Pay a bill : bill payment > supplemental payment on a closed claim,BRAC,BCLM WC 000000068255,KRM-MNBK-107631,Paid,Completed
+48,120,Pay,Pay a bill : Service Fee check already exists,BRAC,BCLM WC 000000064353,KRM-MNBK-109385,Paid,Completed
+49,122,Pay,Pay a bill : service fee provider  not available in claim contacts,BRAC,BCLM WC 000000071689,KRM-MNBK-107306,Paid,Completed
+50,101,Pay,Successfully pay a bill available on an open claim,BRAC,BCLM WC 000000042092,KRM-AZBK-26874,Paid,Completed
+51,102,Pay,Successfully pay a bill available on a closed claim,BRAC,BCLM WC 000000072186,KRM-MNBK-109803,Paid,Completed
+52,107,Pay,Pay a bill : no check payee in claim contacts and vendor record available for a given tin in CM,BRAC,BCLM WC 000000069500,KRM-AZBK-26632,Paid,Completed
+53,108,Pay,Pay a bill : no check payee in claim contacts and no vendor record available for a given tin in CM,BRAC,BCLM WC 000000051966,KRM-MNBK-110265,Paid,Completed
+54,109,Pay,Pay a bill : check payee is not linked,BRAC,BCLM WC 000000045081,KRM-MNBK-113178,Paid,Completed
+55,113,Pay,Pay a bill : Record only claim,BRAC,BCLM WC 000000053795,KRM-MNBK-109644,Paid,Completed
+56,103,Deny,User denies a bill by selecting deny from bill review screen ,BNET,BNET WC 000000033051,KRM-ILST-186841,Denied,Completed
+57,103,Deny,User denies a bill by selecting deny from bill review screen ,KRM,KEY000011450,KRM-MDKR-81419,Denied,Completed
+58,103,Deny,User denies a bill by selecting deny from bill review screen ,PEG,PEG WC 000000090592,FIC-50CA-1262011,Denied,Completed
+59,103,Deny,User denies a bill by selecting deny from bill review screen ,BIN,BIN000097292,KRM-CAMN-553,Denied,Completed
+60,103,Deny,User denies a bill by selecting deny from bill review screen ,BRAC,BCLM WC 000000034548,KRM-AZBK-26460,Denied,Completed
+61,104,Review,User sends a bill for review by selecting Re-Review from bill review screen ,BNET,BARWC0017303,KRM-VABR-28246,Review,Completed
+62,104,Review,User sends a bill for review by selecting Re-Review from bill review screen ,KRM,KEY000002053,KRM-NCKR-478945,Review,Completed
+63,104,Review,User sends a bill for review by selecting Re-Review from bill review screen ,PEG,PEG WC 000000052150,FIC-50CA-1265812,Review,Completed
+64,104,Review,User sends a bill for review by selecting Re-Review from bill review screen ,BIN,BIN000010340,KRM-PAMN-16661,Review,Completed
+65,110,Pay,Pay a bill : check payee is not confirmed,BNET,BNET WC 000000016387,KRM-PAST-36977,Pending,Completed
+66,110,Pay,Pay a bill : check payee is not confirmed,KRM,KEY000000830,KRM-SCKR-194365,Pending,Completed
+67,110,Pay,Pay a bill : check payee is not confirmed,PEG,PEG WC 000000033544,FIC-50CA-1271222,Pending,Completed
+68,110,Pay,Pay a bill : check payee is not confirmed,BIN,BIN000060537,KRM-PAMN-17453,Pending,Completed
+69,110,Pay,Pay a bill : check payee is not confirmed,BRAC,BCLM WC 000000053967,KRM-MNBK-112775,Pending,Completed
+70,106,Pay,Pay a bill : no provider on bill,BRAC,BCLM WC 000000058301,KRM-WABK-4793,Pending,Completed
+71,106,Pay,Pay a bill : no provider on bill,BIN,BIN000061811,KRM-MOMN-751,Pending,Completed
+72,106,Pay,Pay a bill : no provider on bill,PEG,PEG WC 000000023515,FIC-50CA-1272664,Pending,Completed
+73,106,Pay,Pay a bill : no provider on bill,KRM,KEY000002256,KRM-TNKR-110839,Pending,Completed
+74,106,Pay,Pay a bill : no provider on bill,BNET,BNET WC 000000016058,KRM-ILST-185977,Pending,Completed
